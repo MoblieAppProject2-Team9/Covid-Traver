@@ -24,6 +24,7 @@ struct Photo_recommend: View {
             .frame(width: self.width, height: self.height)
             .clipped() // 프레임 내에서 이미지를 자르기
             .cornerRadius(14)
+            .shadow(color:Color.black.opacity(0.5), radius: 1, x:1, y: 3)
     }
 }
 
