@@ -11,7 +11,7 @@ import SwiftUI
 struct Covid_TraverApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            Home(nil)
         }
     }
 }

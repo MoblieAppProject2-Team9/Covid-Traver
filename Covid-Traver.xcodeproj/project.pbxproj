@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		F51D20DF2A10C8B10009C603 /* Covid_TraverApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F51D20DE2A10C8B10009C603 /* Covid_TraverApp.swift */; };
-		F51D20E12A10C8B10009C603 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F51D20E02A10C8B10009C603 /* ContentView.swift */; };
 		F51D20E32A10C8B10009C603 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F51D20E22A10C8B10009C603 /* Assets.xcassets */; };
 		F51D20E62A10C8B10009C603 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F51D20E52A10C8B10009C603 /* Preview Assets.xcassets */; };
 		F51D20F02A10C8B10009C603 /* Covid_TraverTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F51D20EF2A10C8B10009C603 /* Covid_TraverTests.swift */; };
@@ -16,7 +15,13 @@
 		F51D20FC2A10C8B10009C603 /* Covid_TraverUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F51D20FB2A10C8B10009C603 /* Covid_TraverUITestsLaunchTests.swift */; };
 		F51D210B2A10CA550009C603 /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = F51D210A2A10CA550009C603 /* Profile.swift */; };
 		F51D210D2A10D70B0009C603 /* MapKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = F51D210C2A10D70B0009C603 /* MapKit.swift */; };
+		F532ECCD2A1712EA0078B00C /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = F532ECCC2A1712EA0078B00C /* Home.swift */; };
+		F59CE51D2A170A3600D7A0EE /* Find_Hospital.swift in Sources */ = {isa = PBXBuildFile; fileRef = F59CE51C2A170A3600D7A0EE /* Find_Hospital.swift */; };
+		F59CE51F2A170A4C00D7A0EE /* Buttons.swift in Sources */ = {isa = PBXBuildFile; fileRef = F59CE51E2A170A4C00D7A0EE /* Buttons.swift */; };
 		F5A5C7E62A13B6CE006DD179 /* Photo_recommend.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5A5C7E52A13B6CE006DD179 /* Photo_recommend.swift */; };
+		F5E684DA2A1B724500385E4A /* Set_destination.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5E684D92A1B724500385E4A /* Set_destination.swift */; };
+		F5E684DC2A1B726500385E4A /* Guideline.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5E684DB2A1B726500385E4A /* Guideline.swift */; };
+		F5E684DE2A1B728300385E4A /* Translation.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5E684DD2A1B728300385E4A /* Translation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,7 +57,6 @@
 /* Begin PBXFileReference section */
 		F51D20DB2A10C8B10009C603 /* Covid-Traver.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Covid-Traver.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F51D20DE2A10C8B10009C603 /* Covid_TraverApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Covid_TraverApp.swift; sourceTree = "<group>"; };
-		F51D20E02A10C8B10009C603 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		F51D20E22A10C8B10009C603 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F51D20E52A10C8B10009C603 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		F51D20EB2A10C8B10009C603 /* Covid-TraverTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Covid-TraverTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -64,7 +68,13 @@
 		F51D210C2A10D70B0009C603 /* MapKit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapKit.swift; sourceTree = "<group>"; };
 		F51D21142A10D8360009C603 /* LocationPushService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationPushService.swift; sourceTree = "<group>"; };
 		F51D21162A10D8360009C603 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F532ECCC2A1712EA0078B00C /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		F59CE51C2A170A3600D7A0EE /* Find_Hospital.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Find_Hospital.swift; sourceTree = "<group>"; usesTabs = 0; };
+		F59CE51E2A170A4C00D7A0EE /* Buttons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Buttons.swift; sourceTree = "<group>"; };
 		F5A5C7E52A13B6CE006DD179 /* Photo_recommend.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Photo_recommend.swift; sourceTree = "<group>"; };
+		F5E684D92A1B724500385E4A /* Set_destination.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Set_destination.swift; sourceTree = "<group>"; };
+		F5E684DB2A1B726500385E4A /* Guideline.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Guideline.swift; sourceTree = "<group>"; };
+		F5E684DD2A1B728300385E4A /* Translation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Translation.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,9 +127,10 @@
 			isa = PBXGroup;
 			children = (
 				F51D20DE2A10C8B10009C603 /* Covid_TraverApp.swift */,
-				F51D20E02A10C8B10009C603 /* ContentView.swift */,
+				F532ECCC2A1712EA0078B00C /* Home.swift */,
 				F51D21082A10CA250009C603 /* Main */,
 				F51D21092A10CA390009C603 /* Source */,
+				F59CE51B2A170A1F00D7A0EE /* Pages */,
 				F51D20E42A10C8B10009C603 /* Preview Content */,
 			);
 			path = "Covid-Traver";
@@ -156,6 +167,7 @@
 				F51D210A2A10CA550009C603 /* Profile.swift */,
 				F51D210C2A10D70B0009C603 /* MapKit.swift */,
 				F5A5C7E52A13B6CE006DD179 /* Photo_recommend.swift */,
+				F59CE51E2A170A4C00D7A0EE /* Buttons.swift */,
 			);
 			path = Main;
 			sourceTree = "<group>";
@@ -175,6 +187,17 @@
 				F51D21162A10D8360009C603 /* Info.plist */,
 			);
 			path = locate;
+			sourceTree = "<group>";
+		};
+		F59CE51B2A170A1F00D7A0EE /* Pages */ = {
+			isa = PBXGroup;
+			children = (
+				F59CE51C2A170A3600D7A0EE /* Find_Hospital.swift */,
+				F5E684D92A1B724500385E4A /* Set_destination.swift */,
+				F5E684DD2A1B728300385E4A /* Translation.swift */,
+				F5E684DB2A1B726500385E4A /* Guideline.swift */,
+			);
+			path = Pages;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -308,11 +331,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F51D20E12A10C8B10009C603 /* ContentView.swift in Sources */,
+				F59CE51F2A170A4C00D7A0EE /* Buttons.swift in Sources */,
 				F51D210D2A10D70B0009C603 /* MapKit.swift in Sources */,
+				F59CE51D2A170A3600D7A0EE /* Find_Hospital.swift in Sources */,
 				F51D210B2A10CA550009C603 /* Profile.swift in Sources */,
 				F51D20DF2A10C8B10009C603 /* Covid_TraverApp.swift in Sources */,
+				F5E684DA2A1B724500385E4A /* Set_destination.swift in Sources */,
+				F532ECCD2A1712EA0078B00C /* Home.swift in Sources */,
 				F5A5C7E62A13B6CE006DD179 /* Photo_recommend.swift in Sources */,
+				F5E684DC2A1B726500385E4A /* Guideline.swift in Sources */,
+				F5E684DE2A1B728300385E4A /* Translation.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -477,6 +505,8 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIRequiresFullScreen = NO;
+				INFOPLIST_KEY_UIStatusBarStyle = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -506,6 +536,8 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIRequiresFullScreen = NO;
+				INFOPLIST_KEY_UIStatusBarStyle = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
