@@ -3,7 +3,6 @@
 <plist version="1.0">
 <dict>
 	<key>NSExtension</key>
-<<<<<<< HEAD
 	<dict>
 		<key>NSExtensionPointIdentifier</key>
 		<string>com.apple.location.push.service</string>
@@ -16,14 +15,5 @@
 	<string>&quot;위치정보 동의?&quot;</string>
 	<key>CFBundleIdentifier</key>
 	<string></string>
-=======
-	<string></string>
-	<key>CFBundleIdentifier</key>
-	<string></string>
-	<key>NSLocationWhenInUseUsageDescription</key>
-	<string>&quot;위치정보제공 동의?&quot;</string>
-	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
-	<string>&quot;위치정보제공 동의?&quot;</string>
->>>>>>> 756a6f4fd77b9b042dae6d4f882d486c316daa78
 </dict>
 </plist>

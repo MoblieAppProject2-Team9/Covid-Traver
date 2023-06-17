@@ -177,11 +177,7 @@ struct Profile: View {
             .overlay(RoundedRectangle(cornerRadius: 14)
                 .stroke(Color.gray, lineWidth: 1)
             )
-<<<<<<< HEAD
             .clipShape(RoundedRectangle(cornerRadius: 14))
-=======
-            .clipShape(RoundedRectangle(cornerRadius: 14)) 
->>>>>>> 756a6f4fd77b9b042dae6d4f882d486c316daa78
             
     }
     func fetchWeatherData() -> Void{

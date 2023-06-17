@@ -27,32 +27,12 @@
 		9F61F76AF1594A3A790C54EA /* Pods_Covid_TraverTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47A8B2EEDECBDA0EB1B847A9 /* Pods_Covid_TraverTests.framework */; };
 		A3739BFCE7B0DA1D4A8348BC /* Pods_Covid_Traver_Covid_TraverUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D62E4D15D11EFA1BE112A429 /* Pods_Covid_Traver_Covid_TraverUITests.framework */; };
 		F51D20DF2A10C8B10009C603 /* Covid_TraverApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F51D20DE2A10C8B10009C603 /* Covid_TraverApp.swift */; };
-<<<<<<< HEAD
 		F51D20E12A10C8B10009C603 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = F51D20E02A10C8B10009C603 /* Home.swift */; };
-=======
->>>>>>> 756a6f4fd77b9b042dae6d4f882d486c316daa78
 		F51D20E32A10C8B10009C603 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F51D20E22A10C8B10009C603 /* Assets.xcassets */; };
 		F51D20E62A10C8B10009C603 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F51D20E52A10C8B10009C603 /* Preview Assets.xcassets */; };
 		F51D20F02A10C8B10009C603 /* Covid_TraverTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F51D20EF2A10C8B10009C603 /* Covid_TraverTests.swift */; };
 		F51D20FA2A10C8B10009C603 /* Covid_TraverUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F51D20F92A10C8B10009C603 /* Covid_TraverUITests.swift */; };
 		F51D20FC2A10C8B10009C603 /* Covid_TraverUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F51D20FB2A10C8B10009C603 /* Covid_TraverUITestsLaunchTests.swift */; };
-<<<<<<< HEAD
-=======
-		F51D210B2A10CA550009C603 /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = F51D210A2A10CA550009C603 /* Profile.swift */; };
-		F532ECCD2A1712EA0078B00C /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = F532ECCC2A1712EA0078B00C /* Home.swift */; };
-		F56D41FB2A262CBA00EA05E2 /* BottomSheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F56D41FA2A262CBA00EA05E2 /* BottomSheetView.swift */; };
-		F59756DF2A318D2F009D97C0 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F59756DE2A318D2F009D97C0 /* LocationManager.swift */; };
-		F59756E12A318EA0009D97C0 /* Weather.swift in Sources */ = {isa = PBXBuildFile; fileRef = F59756E02A318EA0009D97C0 /* Weather.swift */; };
-		F59756E32A3193EE009D97C0 /* WeatherService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F59756E22A3193EE009D97C0 /* WeatherService.swift */; };
-		F59CE51D2A170A3600D7A0EE /* Find_Hospital.swift in Sources */ = {isa = PBXBuildFile; fileRef = F59CE51C2A170A3600D7A0EE /* Find_Hospital.swift */; };
-		F59CE51F2A170A4C00D7A0EE /* Buttons.swift in Sources */ = {isa = PBXBuildFile; fileRef = F59CE51E2A170A4C00D7A0EE /* Buttons.swift */; };
-		F5A5C7E62A13B6CE006DD179 /* Photo_recommend.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5A5C7E52A13B6CE006DD179 /* Photo_recommend.swift */; };
-		F5E684DA2A1B724500385E4A /* Set_destination.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5E684D92A1B724500385E4A /* Set_destination.swift */; };
-		F5E684DC2A1B726500385E4A /* Guideline.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5E684DB2A1B726500385E4A /* Guideline.swift */; };
-		F5E684DE2A1B728300385E4A /* Translation.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5E684DD2A1B728300385E4A /* Translation.swift */; };
-		F5E684E02A1B774200385E4A /* Mapkit.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5E684DF2A1B774200385E4A /* Mapkit.swift */; };
-		F5E684E32A1B832A00385E4A /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5E684E22A1B832A00385E4A /* CoreLocation.framework */; };
->>>>>>> 756a6f4fd77b9b042dae6d4f882d486c316daa78
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -114,10 +94,7 @@
 		EEA17D5043F2AFDD3232DA41 /* Pods-Covid-Traver-Covid-TraverUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Covid-Traver-Covid-TraverUITests.debug.xcconfig"; path = "Target Support Files/Pods-Covid-Traver-Covid-TraverUITests/Pods-Covid-Traver-Covid-TraverUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		F51D20DB2A10C8B10009C603 /* Covid-Traver.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Covid-Traver.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F51D20DE2A10C8B10009C603 /* Covid_TraverApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Covid_TraverApp.swift; sourceTree = "<group>"; };
-<<<<<<< HEAD
 		F51D20E02A10C8B10009C603 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
-=======
->>>>>>> 756a6f4fd77b9b042dae6d4f882d486c316daa78
 		F51D20E22A10C8B10009C603 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F51D20E52A10C8B10009C603 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		F51D20EB2A10C8B10009C603 /* Covid-TraverTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Covid-TraverTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -125,27 +102,8 @@
 		F51D20F52A10C8B10009C603 /* Covid-TraverUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Covid-TraverUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F51D20F92A10C8B10009C603 /* Covid_TraverUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Covid_TraverUITests.swift; sourceTree = "<group>"; };
 		F51D20FB2A10C8B10009C603 /* Covid_TraverUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Covid_TraverUITestsLaunchTests.swift; sourceTree = "<group>"; };
-<<<<<<< HEAD
 		F51D21142A10D8360009C603 /* LocationPushService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationPushService.swift; sourceTree = "<group>"; };
 		F51D21162A10D8360009C603 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-=======
-		F51D210A2A10CA550009C603 /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
-		F51D21142A10D8360009C603 /* LocationPushService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationPushService.swift; sourceTree = "<group>"; };
-		F51D21162A10D8360009C603 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F532ECCC2A1712EA0078B00C /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
-		F56D41FA2A262CBA00EA05E2 /* BottomSheetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomSheetView.swift; sourceTree = "<group>"; };
-		F59756DE2A318D2F009D97C0 /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
-		F59756E02A318EA0009D97C0 /* Weather.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Weather.swift; sourceTree = "<group>"; };
-		F59756E22A3193EE009D97C0 /* WeatherService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherService.swift; sourceTree = "<group>"; };
-		F59CE51C2A170A3600D7A0EE /* Find_Hospital.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Find_Hospital.swift; sourceTree = "<group>"; usesTabs = 0; };
-		F59CE51E2A170A4C00D7A0EE /* Buttons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Buttons.swift; sourceTree = "<group>"; };
-		F5A5C7E52A13B6CE006DD179 /* Photo_recommend.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Photo_recommend.swift; sourceTree = "<group>"; };
-		F5E684D92A1B724500385E4A /* Set_destination.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Set_destination.swift; sourceTree = "<group>"; };
-		F5E684DB2A1B726500385E4A /* Guideline.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Guideline.swift; sourceTree = "<group>"; };
-		F5E684DD2A1B728300385E4A /* Translation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Translation.swift; sourceTree = "<group>"; };
-		F5E684DF2A1B774200385E4A /* Mapkit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mapkit.swift; sourceTree = "<group>"; };
-		F5E684E22A1B832A00385E4A /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
->>>>>>> 756a6f4fd77b9b042dae6d4f882d486c316daa78
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -153,11 +111,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-<<<<<<< HEAD
 				07414A00FA21375B50C2D65C /* Pods_Covid_Traver.framework in Frameworks */,
-=======
-				F5E684E32A1B832A00385E4A /* CoreLocation.framework in Frameworks */,
->>>>>>> 756a6f4fd77b9b042dae6d4f882d486c316daa78
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,12 +219,8 @@
 				F51D20F82A10C8B10009C603 /* Covid-TraverUITests */,
 				F51D21132A10D8360009C603 /* locate */,
 				F51D20DC2A10C8B10009C603 /* Products */,
-<<<<<<< HEAD
 				04EB9D29BB2992027B0E322B /* Pods */,
 				23FB85404BF8D04C5904942D /* Frameworks */,
-=======
-				F5E684E12A1B832A00385E4A /* Frameworks */,
->>>>>>> 756a6f4fd77b9b042dae6d4f882d486c316daa78
 			);
 			sourceTree = "<group>";
 		};
@@ -287,20 +237,13 @@
 		F51D20DD2A10C8B10009C603 /* Covid-Traver */ = {
 			isa = PBXGroup;
 			children = (
-<<<<<<< HEAD
 				1B3EC60C2A1B5C400050680A /* Info.plist */,
 				F51D20DE2A10C8B10009C603 /* Covid_TraverApp.swift */,
 				1B38396D2A3D96E700262C08 /* Views */,
-=======
-				F56D41F42A2614B300EA05E2 /* Views */,
-				F51D20DE2A10C8B10009C603 /* Covid_TraverApp.swift */,
->>>>>>> 756a6f4fd77b9b042dae6d4f882d486c316daa78
 				F51D21082A10CA250009C603 /* Main */,
 				1B38397F2A3D988000262C08 /* Pages */,
 				F51D21092A10CA390009C603 /* Source */,
-				F59CE51B2A170A1F00D7A0EE /* Pages */,
 				F51D20E42A10C8B10009C603 /* Preview Content */,
-				F51D20E52A10C8B10009C603 /* Preview Assets.xcassets */,
 			);
 			path = "Covid-Traver";
 			sourceTree = "<group>";
@@ -308,6 +251,7 @@
 		F51D20E42A10C8B10009C603 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
+				F51D20E52A10C8B10009C603 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -332,11 +276,7 @@
 		F51D21082A10CA250009C603 /* Main */ = {
 			isa = PBXGroup;
 			children = (
-<<<<<<< HEAD
 				F51D20E02A10C8B10009C603 /* Home.swift */,
-=======
-				F532ECCC2A1712EA0078B00C /* Home.swift */,
->>>>>>> 756a6f4fd77b9b042dae6d4f882d486c316daa78
 			);
 			path = Main;
 			sourceTree = "<group>";
@@ -356,48 +296,6 @@
 				F51D21162A10D8360009C603 /* Info.plist */,
 			);
 			path = locate;
-			sourceTree = "<group>";
-		};
-		F56D41F42A2614B300EA05E2 /* Views */ = {
-			isa = PBXGroup;
-			children = (
-				F51D210A2A10CA550009C603 /* Profile.swift */,
-				F5A5C7E52A13B6CE006DD179 /* Photo_recommend.swift */,
-				F59CE51E2A170A4C00D7A0EE /* Buttons.swift */,
-				F5E684DF2A1B774200385E4A /* Mapkit.swift */,
-				F56D41F52A2614F900EA05E2 /* Classes */,
-			);
-			path = Views;
-			sourceTree = "<group>";
-		};
-		F56D41F52A2614F900EA05E2 /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				F56D41FA2A262CBA00EA05E2 /* BottomSheetView.swift */,
-				F59756DE2A318D2F009D97C0 /* LocationManager.swift */,
-				F59756E02A318EA0009D97C0 /* Weather.swift */,
-				F59756E22A3193EE009D97C0 /* WeatherService.swift */,
-			);
-			path = Classes;
-			sourceTree = "<group>";
-		};
-		F59CE51B2A170A1F00D7A0EE /* Pages */ = {
-			isa = PBXGroup;
-			children = (
-				F59CE51C2A170A3600D7A0EE /* Find_Hospital.swift */,
-				F5E684D92A1B724500385E4A /* Set_destination.swift */,
-				F5E684DD2A1B728300385E4A /* Translation.swift */,
-				F5E684DB2A1B726500385E4A /* Guideline.swift */,
-			);
-			path = Pages;
-			sourceTree = "<group>";
-		};
-		F5E684E12A1B832A00385E4A /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				F5E684E22A1B832A00385E4A /* CoreLocation.framework */,
-			);
-			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -639,7 +537,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-<<<<<<< HEAD
 				F51D20E12A10C8B10009C603 /* Home.swift in Sources */,
 				1B3839782A3D975400262C08 /* Profile.swift in Sources */,
 				1B754FF62A1B662800E7C6E2 /* Language.swift in Sources */,
@@ -658,22 +555,6 @@
 				1B3839702A3D970A00262C08 /* BottomSheetView.swift in Sources */,
 				F51D20DF2A10C8B10009C603 /* Covid_TraverApp.swift in Sources */,
 				1B3839852A3D98F600262C08 /* Find_Hospital.swift in Sources */,
-=======
-				F59CE51F2A170A4C00D7A0EE /* Buttons.swift in Sources */,
-				F59CE51D2A170A3600D7A0EE /* Find_Hospital.swift in Sources */,
-				F51D210B2A10CA550009C603 /* Profile.swift in Sources */,
-				F51D20DF2A10C8B10009C603 /* Covid_TraverApp.swift in Sources */,
-				F5E684DA2A1B724500385E4A /* Set_destination.swift in Sources */,
-				F532ECCD2A1712EA0078B00C /* Home.swift in Sources */,
-				F59756E32A3193EE009D97C0 /* WeatherService.swift in Sources */,
-				F5A5C7E62A13B6CE006DD179 /* Photo_recommend.swift in Sources */,
-				F5E684DC2A1B726500385E4A /* Guideline.swift in Sources */,
-				F59756E12A318EA0009D97C0 /* Weather.swift in Sources */,
-				F59756DF2A318D2F009D97C0 /* LocationManager.swift in Sources */,
-				F56D41FB2A262CBA00EA05E2 /* BottomSheetView.swift in Sources */,
-				F5E684DE2A1B728300385E4A /* Translation.swift in Sources */,
-				F5E684E02A1B774200385E4A /* Mapkit.swift in Sources */,
->>>>>>> 756a6f4fd77b9b042dae6d4f882d486c316daa78
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -837,21 +718,14 @@
 				DEVELOPMENT_TEAM = U9639J73S5;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-<<<<<<< HEAD
 				INFOPLIST_FILE = "Covid-Traver/Info.plist";
 				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "\"항상지도권한이 필요합니다\"";
 				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "\"지도권한이 필요합니다\"";
 				INFOPLIST_KEY_NSMicrophoneUsageDescription = "\"마이크\"";
 				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "\"앱에서 음성으로 텍스트를 읽어줍니다.\"";
-=======
-				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "항상 지도권한이 필요합니다.";
-				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "지도권한이 필요합니다";
->>>>>>> 756a6f4fd77b9b042dae6d4f882d486c316daa78
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UIRequiresFullScreen = NO;
-				INFOPLIST_KEY_UIStatusBarStyle = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
@@ -881,21 +755,14 @@
 				DEVELOPMENT_TEAM = U9639J73S5;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-<<<<<<< HEAD
 				INFOPLIST_FILE = "Covid-Traver/Info.plist";
 				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "\"항상지도권한이 필요합니다\"";
 				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "\"지도권한이 필요합니다\"";
 				INFOPLIST_KEY_NSMicrophoneUsageDescription = "\"마이크\"";
 				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "\"앱에서 음성으로 텍스트를 읽어줍니다.\"";
-=======
-				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "항상 지도권한이 필요합니다.";
-				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "지도권한이 필요합니다";
->>>>>>> 756a6f4fd77b9b042dae6d4f882d486c316daa78
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UIRequiresFullScreen = NO;
-				INFOPLIST_KEY_UIStatusBarStyle = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
