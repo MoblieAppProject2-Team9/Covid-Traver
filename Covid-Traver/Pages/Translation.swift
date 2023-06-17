@@ -8,9 +8,10 @@
 import SwiftUI
 
 struct Translation: View {
-    var body: some View {
-        Text("번역")
-    }
+
+       var body: some View {
+           Text("번역")
+       }
 }
 
 struct Translation_Previews: PreviewProvider {
