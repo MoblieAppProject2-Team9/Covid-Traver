@@ -118,7 +118,11 @@ struct Buttons: View {
             }
            
         case 3://번역
+<<<<<<< HEAD
             NavigationLink(destination: Papago())
+=======
+            NavigationLink(destination: Translation())
+>>>>>>> 756a6f4fd77b9b042dae6d4f882d486c316daa78
             {
                 VStack{
                     HStack{
@@ -149,11 +153,15 @@ struct Buttons: View {
                         .stroke(Color.gray, lineWidth: 1)
                 )
             }
+<<<<<<< HEAD
         
 //        case 4:
 //            NavigationLink(destination: Home()) {
 //
 //            }
+=======
+            
+>>>>>>> 756a6f4fd77b9b042dae6d4f882d486c316daa78
         default:
             //없으면 에러
             Spacer()
