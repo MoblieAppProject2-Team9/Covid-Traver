@@ -3,13 +3,12 @@
 <plist version="1.0">
 <dict>
 	<key>NSExtension</key>
-	<dict>
-		<key>NSExtensionPointIdentifier</key>
-		<string>com.apple.location.push.service</string>
-		<key>NSExtensionPrincipalClass</key>
-		<string>$(PRODUCT_MODULE_NAME).LocationPushService</string>
-	</dict>
-    <key>NSLocationWhenInUseUsageDescription</key>
-    <string>Your message goes here</string>
+	<string></string>
+	<key>CFBundleIdentifier</key>
+	<string></string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>&quot;위치정보제공 동의?&quot;</string>
+	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+	<string>&quot;위치정보제공 동의?&quot;</string>
 </dict>
 </plist>

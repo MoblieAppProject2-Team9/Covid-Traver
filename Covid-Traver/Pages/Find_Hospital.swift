@@ -8,14 +8,15 @@
 import SwiftUI
 
 struct Find_Hospital: View {
+    @State private var distance:CGFloat? = 200
     var body: some View {
         VStack{
-            Text("병원찾기")
+            Map_kit(width:400, height: 880, "Hospital")
         }.edgesIgnoringSafeArea(.top)
     }
 }
 struct Find_Hospital_Previews: PreviewProvider {
     static var previews: some View {
-        Find_Hospital()
+        Find_Hospital().cornerRadius(14)
     }
 }

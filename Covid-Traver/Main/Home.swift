@@ -13,12 +13,17 @@ struct Home: View {
     //nil이면 지금 hot여행지는? 출력.
     init(_ country: String?)
     {
-        self.country_name = country
+        //self.country_name = country
+        self.country_name = "France"
     }
+    
+    @ObservedObject private var locationManager  = LocationManager()
     var body: some View {
         NavigationView{
             VStack(alignment: .center) {
-                Profile("홍길동님",Country: self.country_name,Start: "",End:"")//프로필
+                Profile("홍길동님",Country: self.country_name,Start: "2023.05.27",End:"2023.05.31",
+                        latitude: locationManager.latitude, longitude: locationManager.longitude
+                )//프로필
                     .position(x:Screen_Size.width/2-18, y : 70)
                 
                 if self.country_name == nil //지금 hot 여행지는?출력
@@ -44,7 +49,17 @@ struct Home: View {
                 }
                 else //여행지 설정 완료. 지도출력
                 {
-                    
+                    VStack(alignment: .leading)
+                    {
+                        Text("당신의 여행은 현재")
+                            .font(.system(size:23, weight: .bold))
+                            .bold()
+                            .foregroundColor(Color.black)
+                        Map_kit(width: 360 ,height: 190, nil)
+                            .cornerRadius(20)
+                            .shadow(radius:3, y:3)
+                            .offset(y: -10)
+                    }.offset(y:-30)
                 }
                 //버튼들
                 VStack(alignment: .leading){
@@ -61,7 +76,7 @@ struct Home: View {
                         Buttons(3,width:180, height:120) // 번역
                     }
                 }.offset(y:-20)
-              
+                
                 
                 
             }
@@ -74,5 +89,6 @@ struct Home: View {
 struct Home_Previews: PreviewProvider {
     static var previews: some View {
         Home(nil)
+        Home("Italia")
     }
 }
