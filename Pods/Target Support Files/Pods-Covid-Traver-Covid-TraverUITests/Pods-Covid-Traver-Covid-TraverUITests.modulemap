@@ -1,0 +1,6 @@
+framework module Pods_Covid_Traver_Covid_TraverUITests {
+  umbrella header "Pods-Covid-Traver-Covid-TraverUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
