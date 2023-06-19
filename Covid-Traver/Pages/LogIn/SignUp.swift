@@ -7,12 +7,19 @@
 
 import SwiftUI
 
+var test2 : String = ""
+var giveName : String = ""
+
 struct SignUp: View {
     @State private var name: String = ""
     @State private var id: String = ""
     @State private var password: String = ""
     @State private var birthDate: Date = Date()
     @State private var isVaccinated: Bool = false
+    @State private var showAlert : Bool = false
+    @StateObject private var userManager = UserManager()
+    
+    @Environment(\.presentationMode) var presentationMode
     
     var body: some View {
         VStack {
@@ -77,6 +84,7 @@ struct SignUp: View {
                     }
                 Button(action: {
                     isVaccinated = !isVaccinated
+                    
                 }) {
                     Image(systemName: isVaccinated ? "checkmark.square" : "square")
                         .resizable()
@@ -86,16 +94,20 @@ struct SignUp: View {
             }
             .padding(.bottom, 10)
             
-            
             Button(action: {
-                // 회원정보 DB에 저장
-                // 로그인 창으로 넘어가기
                 print("이름      : \(name)")
                 print("생년월일   : \(birthDate)")
                 print("ID       : \(id)")
                 print("Password : \(password)")
                 print("백신여부   : \(isVaccinated)")
-            }) {
+                print("test : \(userManager.users)")
+                
+                //안떠올라서 그냥 유효값 다 안넣으면 눌러도 안되게 값 다 넣고 버튼 누르면 작동되게
+                if(isvalid() == true){
+                    presentationMode.wrappedValue.dismiss()
+                }
+            })
+            {
                 Text("시작하기")
                     .foregroundColor(.white)
                     .padding()
@@ -107,6 +119,35 @@ struct SignUp: View {
             Spacer()
         }
         .padding()
+    }
+    
+    func isvalid() ->Bool           //유효성 검사
+    {
+        if(name.isEmpty || id.isEmpty || password.isEmpty ){
+         
+         return false
+        }       //공백검사끝
+        
+        //비밀번호 길이랑 유저아이디 중복검사
+        for list in userManager.users{
+            if(id != list.id)
+            {
+                if(password.count >= 6){
+                    userManager.addUser(name: name, birthDate: birthDate, id: id, password: password, isVaccinated: isVaccinated)
+                    test2 = id
+                    giveName = name
+                    return true
+                }
+            }
+        }
+        return false
+    }
+
+}
+
+struct go_firstView : View {
+    var body : some View {
+        Home(test2,giveName)
     }
 }
 

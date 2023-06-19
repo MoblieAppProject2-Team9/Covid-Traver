@@ -11,17 +11,21 @@ struct Buttons: View {
     let index:Int //0: 여행지 설정 / 1: 병원 / 2: 가이드라인 / 3: 번역
     let width:CGFloat
     let height:CGFloat
-    init(_ index:Int, width: CGFloat, height: CGFloat)
+    let name : String
+    let id : String
+    init(_ index:Int, width: CGFloat, height: CGFloat, _ name : String, _ id : String)
     {
         self.index = index
         self.width = width
         self.height = height
+        self.name = name
+        self.id = id
     }
     var body: some View {
         
         switch index {
         case 0: //여행지설정
-            NavigationLink(destination: Set_destination()){
+            NavigationLink(destination: Set_destination(name)){
                 VStack{
                     HStack{
                         Image("world")
@@ -150,10 +154,6 @@ struct Buttons: View {
                 )
             }
         
-//        case 4:
-//            NavigationLink(destination: Home()) {
-//
-//            }
         default:
             //없으면 에러
             Spacer()
@@ -163,9 +163,9 @@ struct Buttons: View {
 
 struct Buttons_Previews: PreviewProvider {
     static var previews: some View {
-        Buttons(0,width:180, height:120)
-        Buttons(1,width:180, height:120)
-        Buttons(2,width:180, height:120)
-        Buttons(3,width:180, height:120)
+        Buttons(0,width:180, height:120,"관리자","admin")
+        Buttons(1,width:180, height:120,"관리자","admin")
+        Buttons(2,width:180, height:120,"관리자","admin")
+        Buttons(3,width:180, height:120,"관리자","admin")
     }
 }
