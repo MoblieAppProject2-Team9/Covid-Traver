@@ -19,6 +19,11 @@
 		1B3839812A3D989600262C08 /* Set_destination.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B3839802A3D989600262C08 /* Set_destination.swift */; };
 		1B3839832A3D98AC00262C08 /* Guideline.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B3839822A3D98AC00262C08 /* Guideline.swift */; };
 		1B3839852A3D98F600262C08 /* Find_Hospital.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B3839842A3D98F600262C08 /* Find_Hospital.swift */; };
+		1B38398A2A40933A00262C08 /* cntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B3839892A40933A00262C08 /* cntry.swift */; };
+		1B38398C2A40934A00262C08 /* user.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B38398B2A40934A00262C08 /* user.swift */; };
+		1B38398E2A40936200262C08 /* UserManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B38398D2A40936200262C08 /* UserManager.swift */; };
+		1B3839902A40937600262C08 /* destination.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B38398F2A40937600262C08 /* destination.swift */; };
+		1B3839922A40938600262C08 /* DestinationsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B3839912A40938600262C08 /* DestinationsManager.swift */; };
 		1B3EC5FE2A14F9480050680A /* Papago.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B3EC5FD2A14F9480050680A /* Papago.swift */; };
 		1B3EC6012A1639750050680A /* LogIn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B3EC6002A1639750050680A /* LogIn.swift */; };
 		1B3EC6032A16398C0050680A /* SignUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B3EC6022A16398C0050680A /* SignUp.swift */; };
@@ -79,6 +84,11 @@
 		1B3839802A3D989600262C08 /* Set_destination.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Set_destination.swift; sourceTree = "<group>"; };
 		1B3839822A3D98AC00262C08 /* Guideline.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Guideline.swift; sourceTree = "<group>"; };
 		1B3839842A3D98F600262C08 /* Find_Hospital.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Find_Hospital.swift; sourceTree = "<group>"; };
+		1B3839892A40933A00262C08 /* cntry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cntry.swift; sourceTree = "<group>"; };
+		1B38398B2A40934A00262C08 /* user.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = user.swift; sourceTree = "<group>"; };
+		1B38398D2A40936200262C08 /* UserManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserManager.swift; sourceTree = "<group>"; };
+		1B38398F2A40937600262C08 /* destination.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = destination.swift; sourceTree = "<group>"; };
+		1B3839912A40938600262C08 /* DestinationsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DestinationsManager.swift; sourceTree = "<group>"; };
 		1B3EC5FD2A14F9480050680A /* Papago.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Papago.swift; sourceTree = "<group>"; };
 		1B3EC6002A1639750050680A /* LogIn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogIn.swift; sourceTree = "<group>"; };
 		1B3EC6022A16398C0050680A /* SignUp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUp.swift; sourceTree = "<group>"; };
@@ -182,6 +192,18 @@
 			path = Pages;
 			sourceTree = "<group>";
 		};
+		1B3839882A40932A00262C08 /* data */ = {
+			isa = PBXGroup;
+			children = (
+				1B3839892A40933A00262C08 /* cntry.swift */,
+				1B38398B2A40934A00262C08 /* user.swift */,
+				1B38398D2A40936200262C08 /* UserManager.swift */,
+				1B38398F2A40937600262C08 /* destination.swift */,
+				1B3839912A40938600262C08 /* DestinationsManager.swift */,
+			);
+			path = data;
+			sourceTree = "<group>";
+		};
 		1B3EC5FC2A14F9020050680A /* Translation */ = {
 			isa = PBXGroup;
 			children = (
@@ -239,6 +261,7 @@
 			children = (
 				1B3EC60C2A1B5C400050680A /* Info.plist */,
 				F51D20DE2A10C8B10009C603 /* Covid_TraverApp.swift */,
+				1B3839882A40932A00262C08 /* data */,
 				1B38396D2A3D96E700262C08 /* Views */,
 				F51D21082A10CA250009C603 /* Main */,
 				1B38397F2A3D988000262C08 /* Pages */,
@@ -537,6 +560,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1B38398C2A40934A00262C08 /* user.swift in Sources */,
 				F51D20E12A10C8B10009C603 /* Home.swift in Sources */,
 				1B3839782A3D975400262C08 /* Profile.swift in Sources */,
 				1B754FF62A1B662800E7C6E2 /* Language.swift in Sources */,
@@ -545,15 +569,19 @@
 				1B38397C2A3D978200262C08 /* Buttons.swift in Sources */,
 				1B3EC5FE2A14F9480050680A /* Papago.swift in Sources */,
 				1B3839762A3D973F00262C08 /* WeatherService.swift in Sources */,
+				1B38398E2A40936200262C08 /* UserManager.swift in Sources */,
 				1B3839812A3D989600262C08 /* Set_destination.swift in Sources */,
 				1B754FF42A1B654F00E7C6E2 /* TTSManager.swift in Sources */,
 				1B3839832A3D98AC00262C08 /* Guideline.swift in Sources */,
 				1B38397E2A3D979700262C08 /* MapKit.swift in Sources */,
+				1B3839922A40938600262C08 /* DestinationsManager.swift in Sources */,
 				1B3EC6012A1639750050680A /* LogIn.swift in Sources */,
 				1B3839742A3D972D00262C08 /* Weather.swift in Sources */,
 				1B3EC6032A16398C0050680A /* SignUp.swift in Sources */,
 				1B3839702A3D970A00262C08 /* BottomSheetView.swift in Sources */,
+				1B38398A2A40933A00262C08 /* cntry.swift in Sources */,
 				F51D20DF2A10C8B10009C603 /* Covid_TraverApp.swift in Sources */,
+				1B3839902A40937600262C08 /* destination.swift in Sources */,
 				1B3839852A3D98F600262C08 /* Find_Hospital.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
